@@ -80,15 +80,15 @@ Explanation as below
 
 **To deep dive and know more about InstructLab and Taxonomy**
 
-https://instructlab.ai/
-https://docs.instructlab.ai/
-https://blog.instructlab.ai/
-https://www.redhat.com/en/topics/ai/what-is-instructlab
+- [InstructLab Blog](https://blog.instructlab.ai/)
+- [InstructLab Website](https://instructlab.ai/)
+- [InstructLab Docs](https://docs.instructlab.ai/)
+- [InstructLab Explanation](https://www.redhat.com/en/topics/ai/what-is-instructlab)
 
 **Github repos**
 
-https://github.com/instructlab
-https://github.com/instructlab/taxonomy
+- [InstructLab Github](https://github.com/instructlab)
+- [Taxonomy Github](https://github.com/instructlab/taxonomy)
 
 ---
 
