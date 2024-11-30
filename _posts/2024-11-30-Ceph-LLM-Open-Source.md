@@ -58,7 +58,7 @@ IBM’s **InstructLab** plays a pivotal role in reducing the costs of fine-tunin
 - YAML templates for skills and knowledge contributions.
 - A simplified interface for model serving and interaction.
 
-![alt text](instructlab_workflow.png)
+![instructlab workflow](./_images/instructlab_workflow.png)
 
 ---
 
