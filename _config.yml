@@ -6,7 +6,7 @@ description: "All things related to tech by Pavan" # This will show up in places
 # All of these are optional and can be removed or commented out
 email: "pavankumar.ag@mail.com"
 github_username: "pavankumarag"
-linkedin_username: "https://www.linkedin.com/in/pavankumarag/"
+linkedin_username: "pavankumarag"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -24,7 +24,10 @@ rss: rss
 kramdown:
   syntax_highlighter_opts:
     disable: true
-    
+social-links:
+  LinkedIn:        https://linkedin.com/in/pavankumarag
+  GitHub:          https://github.com/pavankumarag
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
