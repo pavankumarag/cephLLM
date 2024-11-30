@@ -61,8 +61,34 @@ IBM’s **InstructLab** plays a pivotal role in reducing the costs of fine-tunin
 - YAML templates for skills and knowledge contributions.
 - A simplified interface for model serving and interaction.
 
+**Pic below: InstructLab workflow**
+
 ![instructlab workflow](/img/2024-11-30-Ceph-LLM-Open-Source/instructlab_workflow.png)
 
+Explanation as below
+
+- The InstructLab taxonomy is the first point of entry for users interacting with InstructLab. Users make a contribution to their local taxonomy clone in the form of a skill or knowledge that they want their model to learn.
+    - A WIP UI is being developed to allow users to interact with their taxonomy more intuitively.
+- Once the taxonomy is updated, users can then use the CLI to interact with the other components.
+- The first step is to initiate synthetic data generation. This step takes the seed examples provided by the user in their taxonomy contribution and generates synthetic data samples based on them.
+- Once the data is generated, users can start training their model using that data. This process produces several checkpoints based on the number of epochs run during training.
+- Finally, users can run an evaluation on a chosen checkpoint to gauge objective performance. The evaluation suite includes standardized benchmarks that allow comparison of the model’s performance against other models evaluated against those benchmarks.
+
+**Pic below: Taxonomy Diagram. Taxonomy is a github repo**
+
+![Taxonomy diagram](/img/2024-11-30-Ceph-LLM-Open-Source/taxonomy_diagram.png)
+
+**To deep dive and know more about InstructLab and Taxonomy**
+
+https://instructlab.ai/
+https://docs.instructlab.ai/
+https://blog.instructlab.ai/
+https://www.redhat.com/en/topics/ai/what-is-instructlab
+
+**Github repos**
+
+https://github.com/instructlab
+https://github.com/instructlab/taxonomy
 
 ---
 
