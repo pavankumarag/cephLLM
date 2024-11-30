@@ -134,7 +134,7 @@ Model on **Huggingface** :
 - [Safetensors format model on Hugging Face](https://huggingface.co/pavankumarag/ceph-llm)
 - [Quantised gguf model on Hugging Face](https://huggingface.co/pavankumarag/ceph-llm-gguf)
 
-To inference the model:
+To inference the fine tuned Ceph LLM:
 
 ```
 ollama run hf.co/pavankumarag/ceph-llm-gguf
