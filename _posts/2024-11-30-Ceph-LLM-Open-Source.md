@@ -101,15 +101,52 @@ Explanation as below
 - Submit pull requests to integrate updates into the model.
 
 ### For Model Consumers:
-- Access models through **Docker images**, **Hugging Face**, or **Langchain integrations**.
+- Access models through **Docker images**, **ollama**, **Hugging Face**, or **Langchain integrations**.
 - Deploy models on platforms like **Gradio**, **Streamlit**, or IBM’s **Watsonx**.
+- InstructLab's native **ilab** CLI 
 
 ### For Infrastructure Management:
 - Host models on RHEL AI (Red Hat Enterprise Linux AI) in IBM Cloud.
 - Utilize IBM Vela for scalable deployment.
 
----
+![Ceph Workflow through instructlab](/img/2024-11-30-Ceph-LLM-Open-Source/workflow.png)
 
+**Pic: Ceph LLM workflow with InstructLab**
+
+---
+## Simulation of community contribution
+
+To simulate community contribution, We did a demo of Ceph LLM initiative to the internal team of 35+ people and 11 out of them volunteered to contribute
+the data in the form of qna.yaml to Ceph taxonomy. The feedback and involvement was positive.
+
+- [Ceph Taxonomy Github](https://github.com/pavankumarag/ceph-instructlab-taxonomy)
+- [Data in md format for Ceph Taxonomy](https://github.com/pavankumarag/ceph-instructlab-taxonomy-data)
+
+---
+## Final Model details for inferencing
+
+Based on the taxonomy below, the foundation model was finetuned using instructlab.
+
+- [Ceph Taxonomy Github](https://github.com/pavankumarag/ceph-instructlab-taxonomy)
+- [Data in md format for Ceph Taxonomy](https://github.com/pavankumarag/ceph-instructlab-taxonomy-data)
+
+Model on **Huggingface** :
+- [Safetensors format model on Hugging Face](https://huggingface.co/pavankumarag/ceph-llm)
+- [Quantised gguf model on Hugging Face](https://huggingface.co/pavankumarag/ceph-llm-gguf)
+
+To inference the model:
+
+```
+ollama run hf.co/pavankumarag/ceph-llm-gguf
+```
+
+To inference the base/foundation model:
+
+```
+ollama run hf.co/instructlab/granite-7b-lab-GGUF
+```
+
+---
 ## FAQs: Addressing Key Concerns
 
 1. **Why is the output sometimes inaccurate?**  
