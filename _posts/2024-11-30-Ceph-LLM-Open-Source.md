@@ -1,4 +1,4 @@
-# Ceph-LLM: Unlocking the Power of Community driven and Open Source Ceph LLM model
+# Ceph-LLM: Unlocking the Power of Community driven and Open Source AI(LLM)
 
 In the ever-evolving world of artificial intelligence (AI), **Large Language Models (LLMs)** have transformed the way we interact with technology. However, challenges such as data transparency and the lack of community-driven contributions often hinder their development. Enter **Ceph-LLM**, an innovative initiative made possible by Instructlab, an open source finetuning framework created with the collaboration of IBM Research and Red Hat, that seeks to create an open-source, community-driven LLM tailored to the Ceph ecosystem.
 
