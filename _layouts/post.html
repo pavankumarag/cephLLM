@@ -27,4 +27,13 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  {% if site.comments_repo %}
+  {% include comments.html %}
+  {% endif %}
+
+<script type="text/javascript" src="/js/gifffer.min.js"></script>
+<script>window.onload = function() { Gifffer(); }</script>
+<script type="text/javascript" src="/js/copy-code-button.js"></script>
+
 </article>

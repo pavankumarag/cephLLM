@@ -19,6 +19,9 @@ linkedin_username: "pavankumarag"
 #########################################################################################
 theme: "minima"
 
+# The github repo that is to be used for looking up comments
+comments_repo: pavankumarag/pavankumarag.github.io
+
 rss: rss
 
 kramdown:
@@ -41,4 +44,5 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      tags: 
+        - Other
