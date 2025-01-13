@@ -123,7 +123,7 @@ the data in the form of qna.yaml to Ceph taxonomy. The feedback and involvement 
 - [Data in md format for Ceph Taxonomy](https://github.com/pavankumarag/ceph-instructlab-taxonomy-data)
 
 ---
-## The Problem with Current LLMs
+## The Result
 
 We inferenced the based model i.e granite 2.x model with out Ceph NVMeOF data and fine tuned model with the NVMeOF data, to measure the correctness.
 
