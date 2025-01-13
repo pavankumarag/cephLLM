@@ -123,6 +123,34 @@ the data in the form of qna.yaml to Ceph taxonomy. The feedback and involvement 
 - [Data in md format for Ceph Taxonomy](https://github.com/pavankumarag/ceph-instructlab-taxonomy-data)
 
 ---
+## The Problem with Current LLMs
+
+We inferenced the based model i.e granite 2.x model with out Ceph NVMeOF data and fine tuned model with the NVMeOF data, to measure the correctness.
+
+Example data used in fine tuning as below
+
+qna.yaml in Taxonomy
+
+```
+https://github.com/pavankumarag/ceph-instructlab-taxonomy/blob/main/knowledge/technology/Ceph/NVMeOF-gateway/qna.yaml
+```
+
+Grounded data used for the aboev qna.yaml
+
+```
+https://github.ibm.com/Pavan-Govindraj/IBM-Ceph-data-Instructlab-taxanomy/blob/main/IBM_Ceph_7.1/nvmeof.md
+```
+
+Inferencing the base model without having data(NVMeOF qna.yaml)
+
+![Base Model inferencing result](/img/2024-11-30-Ceph-LLM-Open-Source/base_model_inferencing_result.png)
+
+Inferencing the finetuned model with NVMeOF data
+
+![Base Model inferencing result](/img/2024-11-30-Ceph-LLM-Open-Source/finetuned_model_inferencing_result.png)
+
+
+---
 ## Final Model details for inferencing
 
 Based on the taxonomy below, the foundation model was finetuned using instructlab.
